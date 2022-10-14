@@ -1,0 +1,42 @@
+<view style="display: flex;justify-content: center;padding: 10rpx;align-items: center;" bindtap="xiugai_image">
+    <image src="{{scr}}" style="border-radius: 10rpx;width: 15vh;" mode="widthFix"></image>
+    <text>请点击图片上传自己的照片</text>
+</view>
+<van-cell-group>
+    <van-field bind:input="username" value="{{ username }}" label="学号" placeholder="请输入学号（必填）" />
+    <van-field bind:input="password" value="{{ password }}" label="密码" placeholder="请输入密码（必填）" />
+    <van-field bind:input="name" value="{{ name }}" label="姓名" placeholder="请输入姓名（必填）" />
+    <van-field bind:input="age" value="{{ age }}" label="年龄" placeholder="请输入年龄（必填）" border="{{ false }}" />
+    <van-field bind:input="tele" value="{{ tele }}" label="电话" placeholder="请输入电话号码（必填）" border="{{ false }}" />
+    <van-field bind:input="qq" value="{{ qq }}" label="QQ" placeholder="请输入qq号码（选填）" border="{{ false }}" />
+    <van-field bind:input="weixin" value="{{ weixin }}" label="微信" placeholder="请输入微信号码（选填）" border="{{ false }}" />
+</van-cell-group>
+<view style="display: flex;justify-content: center;padding: 10rpx;">
+    <view style="width: 100%;background: rgb(162, 182, 142);height: 2rpx;width: 80%;"></view>
+</view>
+
+<van-radio-group value="{{ radio }}" bind:change="onChange" style="padding: 5rpx;">
+    <view style="display: flex;flex-direction:row; justify-content:space-around;">
+        <van-radio name="1">男 </van-radio>
+        <van-radio name="2">女 </van-radio>
+    </view>
+</van-radio-group>
+
+<!-- 班级选择开始 -->
+<view>
+    <van-dropdown-menu active-color="#1989fa">
+        <van-dropdown-item bind:change="nianji" value="{{ value1 }}" options="{{ option1 }}" />
+        <van-dropdown-item bind:change="banji" value="{{ value2 }}" options="{{ option2 }}" />
+    </van-dropdown-menu>
+
+</view>
+<!-- 班级选择结束 -->
+<van-cell-group>
+    <view style="min-height: 13vh;">
+        <van-field bind:input="gerenjianjie" value="{{ message }}" label="个人简介" type="textarea" placeholder="填写自己的兴趣爱好（必填）" autosize border="{{ false }}" />
+    </view>
+</van-cell-group>
+<view class="anniu">
+    <van-dialog id="van-dialog" />
+    <van-button disabled="{{zhuangtai}}" type="primary" block bind:click="zhuce">立即注册</van-button>
+</view>

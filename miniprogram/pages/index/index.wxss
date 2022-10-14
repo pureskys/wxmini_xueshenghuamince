@@ -1,0 +1,39 @@
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.zhuye_tupian{
+    border-radius: 10%;
+    overflow: hidden;
+    height: 100%;
+    padding: 10rpx;
+}
+.denglukapian{
+    border-radius: 3%;
+    width: 98%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10rpx;
+    padding-bottom: 10rpx;
+
+}
+.denglukapian_tupian{
+    border-radius: 3%;
+    background-color:rgb(180, 210, 228);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.dibuxian{
+    display:flex;
+    align-items: center;
+    width: 94%;
+    background-color: rgb(61, 181, 197);
+    height: 8rpx;
+    margin-left: 10rpx;
+    border-radius: 1000rpx;
+}

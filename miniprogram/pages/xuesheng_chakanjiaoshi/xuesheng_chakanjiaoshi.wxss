@@ -1,0 +1,70 @@
+.body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rpx;
+
+}
+
+.xinxi {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+    padding-right: 100rpx;
+
+}
+
+.zhuye_tupian {
+    border-radius: 15%;
+    overflow: hidden;
+    height: 100%;
+    padding: 10rpx;
+    width: 35%;
+    max-height: 170.768px;
+    min-height: 169px;
+}
+
+.denglukapian_tupian {
+    border-radius: 3%;
+    background-color: rgb(202, 227, 240);
+    overflow: hidden;
+    display: flex;
+    justify-content: right;
+    align-items:center;
+    width: 100%;
+}
+.denglukapian_tupian1 {
+    border-radius: 2%;
+    background-color: rgb(195, 221, 238);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+.denglukapian_tupian2 {
+    border-radius: 2%;
+    background-color: rgb(191, 215, 233);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 790rpx;
+    
+}
+.gerenjianjie{
+    border-radius: 15%;
+    height: 100%;
+    padding: 13rpx;
+    width: 97%;
+}
+.lianxi{
+    border-radius: 15%;
+    overflow: hidden;
+    height: 100%;
+    padding: 10rpx;
+    width: 98%;
+}

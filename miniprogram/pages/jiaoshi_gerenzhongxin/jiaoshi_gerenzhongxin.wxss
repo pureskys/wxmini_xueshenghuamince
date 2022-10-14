@@ -1,0 +1,71 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(228, 243, 245);
+}
+.gerenxinxi{
+    display: flex;
+    align-items: center;
+    border-radius: 20rpx;
+    height: 22vw;
+    margin: 21rpx;
+}
+.dibuxian{
+    display:flex;
+    align-items: center;
+    width: 88%;
+    background-color: rgb(61, 181, 197);
+    height: 8rpx;
+    margin-left: 10rpx;
+    border-radius: 1000rpx;
+}
+.gerenxinxi image{
+    width: 120rpx;
+    border-radius: 500rpx;
+    margin-left: 2vw;
+    margin-right: 5vw;
+}
+.gerenxinxi_text{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    height:100%;
+}
+.gerenxinxi_text text{
+    margin: 7rpx;
+}
+.gongnengmianban{
+    margin: 10rpx;
+    padding-top: 3rpx;
+    padding-left: 15rpx;
+    margin: 5rpx;
+    height: 135px;
+    display: flex;
+}
+
+.gongnengmianban image{
+    left: 0;
+    width: 50rpx;
+    margin-left: 10rpx;
+    margin-right: 25rpx;
+}
+.gongnengmianban_xiangmu{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    margin-bottom: 20rpx;
+    margin-top: 65rpx;
+    width: 100%;
+}
+.gongnengmianban_xiangmu text{
+   font-size: 29rpx;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.arrow{
+    position:-ms-page;
+    margin-left: 30%;
+    right: 0;
+}

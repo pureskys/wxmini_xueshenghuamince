@@ -1,0 +1,43 @@
+
+<!-- 搜索开始 -->
+<view class="sousuokuang">
+    <view style="width: 90%;padding-left: 5rpx;">
+        <van-search  background="#f0ffff" value="{{ sousuo }}" placeholder="{{tishi}}" shape="round" bind:search="onSearch1" bind:change="onChange1" />
+    </view>
+
+    <view style="width: 10%; display: flex;justify-content: center;align-items: center;padding-right: 10rpx;background: azure;" bindtap="qiehuan">
+        <van-icon name="{{sousuo_qiehuan}}"size="22px" />
+    </view>
+
+</view>
+<!-- 搜索结束 -->
+<view style="background: #f0ffff;">
+
+<van-tabbar active="{{ active }}" bind:change="onChange">
+    <van-tabbar-item icon="friends-o">学生中心</van-tabbar-item>
+    <van-tabbar-item icon="setting-o">个人中心</van-tabbar-item>
+</van-tabbar>
+
+<van-transition name="fade-up" bind:after-enter='jiazai' duration="400">
+    <van-skeleton title avatar row="7" loading="{{ loading }}">
+        <view style="padding: 15rpx;padding-left: 35rpx;padding-right: 35rpx;" wx:for="{{xuesheng_data}}" wx:key="_id" data-id="{{item._id}}" data-class="{{item.class}}" bindtap="xiangqing">
+            <view style="display: flex;justify-content: space-between;align-items: center;background: rgb(226, 246, 248);border-radius: 20rpx;">
+                <image src="{{item.user.avatar}}" style="height: 16vh;padding: 10rpx;width: 20vh;border-radius: 22%;"></image>
+                <view style="width: 4vh;"></view>
+                <view style="width: 100%;display: flex;flex-direction:column;">
+                    <view><text style="font-size:medium;">姓名：{{item.user.name}}</text></view>
+                    <view style="width: 60%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 60rpx;"></view>
+                    <view><text style="font-size: small;">学号：{{item.username}}</text></view>
+                    <view style="width: 38%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 60rpx;"></view>
+                    <view><text style="font-size: small;">性别：{{item.user.gender}}</text></view>
+                    <view style="width: 40%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 60rpx;"></view>
+                    <view><text style="font-size: small;">tele：{{item.user.tele}}</text></view>
+                    <view style="width: 70%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 60rpx;"></view>
+
+                </view>
+            </view>
+        </view>
+    </van-skeleton>
+    <view style="height: 130rpx;"></view>
+</van-transition>
+</view>

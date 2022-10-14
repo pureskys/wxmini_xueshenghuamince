@@ -1,0 +1,35 @@
+<van-transition name="fade-up" bind:after-enter='jiazai' duration="400">
+    <van-skeleton title avatar row="7" loading="{{ loading }}">
+        <!-- 轮播开始 -->
+        <van-notice-bar left-icon="volume-o" text="富强、民主、文明、和谐；自由、平等、公正、法治；爱国、敬业、诚信、友善" />
+        <!-- 轮播结束 -->
+        <!-- 校徽开始 -->
+        <view style="display: flex;justify-content: center;align-items: center;padding-right: 3rpx;">
+            <image src="https://7375-sun-3g6gwmbw83fc31a4-1309504880.tcb.qcloud.la/image/%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84%E5%B8%A6%E5%AD%97%E6%A0%A1%E5%BE%BD.png" mode="widthFix"></image>
+        </view>
+        <!-- 校徽结束 -->
+        <view style="height: 10rpx;"></view>
+        <view class="body">
+            <!-- 顶部图片开始 -->
+            <view class="denglukapian_tupian">
+                <image src="https://7375-sun-3g6gwmbw83fc31a4-1309504880.tcb.qcloud.la/image/2019030509.jpg" mode="widthFix" class="zhuye_tupian">
+                </image>
+            </view>
+            <!-- 顶部图片结束 -->
+            <view style="width: 100%;padding-top: 40rpx;padding-bottom: 30rpx;">
+                <view class="dibuxian"></view>
+            </view>
+            <!-- 教师登录开始 -->
+            <view class="denglukapian">
+                <van-cell center title="教师登录" is-link label="查看学生信息" bindtap="jiaoshi" />
+            </view>
+            <!-- 教师登录结束 -->
+            <view style="height: 20rpx;"></view>
+            <!-- 学生登录开始 -->
+            <view class="denglukapian">
+                <van-cell center title="学生登录" is-link label="查看本人信息" bindtap="xuesheng" />
+            </view>
+            <!-- 学生的登录结束 -->
+        </view>
+    </van-skeleton>
+</van-transition>

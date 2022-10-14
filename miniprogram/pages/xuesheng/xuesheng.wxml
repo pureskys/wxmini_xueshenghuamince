@@ -1,0 +1,39 @@
+<view class="body">
+    <!-- 问号提示弹出开始 -->
+    <van-toast id="van-toast" />
+    <!-- 问号提示弹出结束 -->
+    <!-- 校徽开始 -->
+    <view style="align-items: center;justify-content: center; display: flex;padding: 10rpx;">
+        <image src="https://7375-sun-3g6gwmbw83fc31a4-1309504880.tcb.qcloud.la/image/%E4%BF%AE%E6%94%B9%E5%90%8E%E7%9A%84%E5%9B%BE%E7%89%87.png" mode="heightFix"></image>
+    </view>
+    <!-- 校徽结束 -->
+    <van-cell-group>
+        <!-- 用户名开始 -->
+        <van-field required clearable label="用户名" icon="question-o" placeholder="请输入用户名" bind:click-icon="wenhao" bind:input="username" />
+        <!-- 用户名结束 -->
+        <!-- 密码开始 -->
+        <van-field required clearable password="{{password_leixing}}" label="密码" placeholder="请输入密码" bind:click-icon="yanjin" bind:input="password" icon="{{yanjin}}" required border="{{ false }}" />
+        <!-- 密码结束 -->
+        <view style="height: 5rpx;background-color: rgb(147, 204, 253);border-radius: 9999rpx;width: 96%;"></view>
+        <!-- 班级开始 -->
+        <view>
+            <van-dropdown-menu active-color="#1989fa">
+                <van-dropdown-item bind:change="nianji" value="{{ value1 }}" options="{{ option1 }}" />
+                <van-dropdown-item bind:change="banji" value="{{ value2 }}" options="{{ option2 }}" />
+            </van-dropdown-menu>
+
+        </view>
+        <!-- 班级结束 -->
+    </van-cell-group>
+    <!-- 两个问题解决开始u -->
+    <view class="wenti">
+        <text bindtap="zhuce" class="wenti_1">立即注册</text>
+        <text class="wenti_1">忘记密码</text>
+    </view>
+    <!-- 两个问题解决结束 -->
+    <!-- 登录按钮开始 -->
+    <view class="anniu">
+        <van-button type="primary" block bind:click="login">登录</van-button>
+    </view>
+    <!-- 登录按钮结束 -->
+</view>

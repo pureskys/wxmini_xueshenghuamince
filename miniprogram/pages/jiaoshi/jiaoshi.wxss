@@ -1,0 +1,18 @@
+/* pages/jiaoshi/jiaoshi.wxss */
+.wenti{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 35rpx;
+    padding-right: 35rpx;
+    padding-top: 10rpx;
+}
+.wenti_1{
+    font-size: small;
+    color: aqua;
+}
+.anniu{
+    padding-left: 45rpx;
+    padding-top: 20rpx;
+    padding-right: 45rpx;
+}

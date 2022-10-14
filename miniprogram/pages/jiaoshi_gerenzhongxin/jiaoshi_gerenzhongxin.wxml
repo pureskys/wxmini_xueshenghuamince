@@ -1,0 +1,55 @@
+<van-dialog use-slot title="是否退出登录" show="{{ show1 }}" show-cancel-button bind:cancel="onClose1" bind:confirm="tuichudenglu_chengong">  
+</van-dialog>
+<!-- 底部弹出层开始 -->
+<van-popup show="{{ show }}" round position="bottom" custom-style="height: 20%" bind:close="onClose">
+    <view style="width: 100%;display: flex;justify-content: center;padding-top: 40rpx;">
+        <van-stepper bind:change="onChange_bianjirenshu" value="{{ chushizhi }}" integer />
+    </view>
+
+</van-popup>
+<!-- 底部弹出层结束 -->
+<!-- 底部导航开始 -->
+<van-tabbar active="{{ active }}" bind:change="onChange">
+    <van-tabbar-item icon="friends-o">学生中心</van-tabbar-item>
+    <van-tabbar-item icon="setting-o">个人中心</van-tabbar-item>
+</van-tabbar>
+<!-- 底部导航结束 -->
+<!-- 主界面开始 -->
+<view class="body">
+    <!-- 微信授权开始 -->
+    <button type="primary" bindtap="login" wx:if="{{!user}}">授权登录</button>
+    <!-- 微信授权结束 -->
+    <view wx:else>
+        <!--第一层，个人信息开始-->
+        <view class="gerenxinxi">
+            <image src="{{user.avatarUrl}}" mode="widthFix" class="touxiang" class="left_png"></image>
+            <view class="gerenxinxi_text">
+                <text style="font-size: 32rpx;">{{user.nickName}}</text>
+                <text style="font-size: 24rpx; color: rgba(8, 8, 7, 0.726);">{{gerenqianming}}</text>
+            </view>
+        </view>
+        <!-- 第一层，个人信息结束 -->
+        <!--个人信息下面的线开始-->
+        <view class="dibuxian"></view>
+        <!-- 个人信息下面的线结束 -->
+        <!-- 加以层高度开始 -->
+        <view style="height: 50rpx;"></view>
+        <!-- 加以层高度结束 -->
+        <!--第二层，功能面板开始-->
+        <view class="gongnengmianban">
+            <view style="display: flex;align-items: center; justify-content: center;flex-direction: column;">
+                <van-circle size="130" value="{{ value }}" color="{{ gradientColor }}" text="{{zhi}}" />
+                <text bindtap="bianji_renshu" style="font-size: xx-small;color: rgb(177, 176, 172);">编辑人数</text>
+            </view>
+            <view style="height: 100%;width: 100%;padding-left: 30rpx;padding-right: 20rpx;">
+                <view style="height: 15rpx;"></view>
+                <van-button bindtap="gerenxinxi" round type="info" size="large" plain>查看个人信息</van-button>
+                <view style="height: 20rpx;"></view>
+                <van-button bindtap="tuichudenglu" round type="primary" size="large" plain>退出登录</van-button>
+            </view>
+        </view>
+        <!-- 第二层，功能面板结束 -->
+
+    </view>
+</view>
+<!-- 主界面结束 -->

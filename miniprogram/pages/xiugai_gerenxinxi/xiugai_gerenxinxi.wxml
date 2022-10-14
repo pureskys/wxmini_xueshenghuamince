@@ -1,0 +1,29 @@
+<view style="display: flex;justify-content: center;padding: 10rpx;" bindtap="xiugai_image">
+    <image src="{{scr}}" style="border-radius: 10rpx;width: 15vh;" mode="widthFix"></image>
+</view>
+<van-cell-group>
+    <van-field bind:input="name" value="{{ name }}" label="姓名" placeholder="{{name}}" />
+    <van-field bind:input="age" value="{{ age }}" label="年龄" placeholder="{{age}}" border="{{ false }}" />
+    <van-field bind:input="tele" value="{{ tele }}" label="电话" placeholder="{{tele}}" border="{{ false }}" />
+    <van-field bind:input="qq" value="{{ qq }}" label="QQ" placeholder="{{qq}}" border="{{ false }}" />
+    <van-field bind:input="weixin" value="{{ weixin }}" label="微信" placeholder="{{weixin}}" border="{{ false }}" />
+</van-cell-group>
+<view style="display: flex;justify-content: center;padding: 10rpx;">
+    <view style="width: 100%;background: rgb(162, 182, 142);height: 2rpx;width: 80%;"></view>
+</view>
+
+<van-radio-group value="{{ radio }}" bind:change="onChange">
+    <view style="display: flex;flex-direction:row; justify-content:space-around;">
+        <van-radio name="1">男 </van-radio>
+        <van-radio name="2">女 </van-radio>
+    </view>
+</van-radio-group>
+<van-cell-group>
+    <view style="min-height: 13vh;">
+        <van-field bind:input="gerenjianjie" value="{{ gerenjianjie }}" label="个人简介" type="textarea" placeholder="{{gerenjianjie}}" autosize border="{{ false }}" />
+    </view>
+</van-cell-group>
+<view class="anniu">
+    <van-dialog id="van-dialog" />
+    <van-button disabled="{{zhuangtai}}" type="primary" block bind:click="xiugai_gerenxinxi">确认修改个人信息</van-button>
+</view>

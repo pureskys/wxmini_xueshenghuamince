@@ -1,0 +1,50 @@
+<!--pages/xuesheng_xiangqing/xuesheng_xiangqing.wxml-->
+<van-popup show="{{ show }}" position="right" custom-style="height: 80%;" bind:close="onClose" round>
+    <view style="padding: 10rpx;padding-top: 40rpx;display: flex;justify-content: center;" bindtap="Change_password">修改密码</view>
+    <view style="width: 100%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 60rpx;"></view>
+    <view style="padding: 10rpx;padding-top: 40rpx;display: flex;justify-content: center;" bindtap="gerenxinxi">修改个人信息</view>
+    <view style="width: 100%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 60rpx;"></view>
+</van-popup>
+
+<view style="background:rgb(214, 245, 245);height: 100vh;">
+    <view class="body">
+        <!-- 基本信息开始 -->
+        <view class="denglukapian_tupian">
+            <image src="{{scr}}" mode="widthFix" class="zhuye_tupian" bindtap="tupian_tiaozhuan">
+            </image>
+            <view style="display: flex;flex-direction: column;justify-content: space-around;">
+                <view style="padding-bottom: 20rpx;padding-top: 10rpx;padding-left: 20rpx;">姓名：{{name}}
+                    <van-icon name="ellipsis" style="padding-left: 170rpx;" bind:click="showPopup" />
+                </view>
+                <view style="width: 100%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 60rpx;"></view>
+                <view style="padding-top: 20rpx;padding-bottom: 20rpx;padding-left: 20rpx;">性别：{{gender}}</view>
+                <view style="width: 100%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 20rpx;"></view>
+                <view style="padding-top: 20rpx;padding-bottom: 20rpx;padding-left: 20rpx;">年龄：{{age}}</view>
+                <view style="width: 100%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 40rpx;"></view>
+                <view style="width: 100%;background: rgb(151, 153, 149);height: 1rpx;padding-left: 90rpx;"></view>
+            </view>
+        </view>
+        <!-- 基本信息结束 -->
+    </view>
+
+    <view class="body">
+        <view class="denglukapian_tupian1">
+            <view class="lianxi">
+                <view>电话号码：<text selectable="true">{{tele}}</text></view>
+                <view style="height: 15rpx;"></view>
+                <view>QQ号码：<text selectable="true">{{qq}}</text></view>
+                <view style="height: 15rpx;"></view>
+                <view>微信号码：<text selectable="true">{{weixin}}</text></view>
+            </view>
+        </view>
+    </view>
+    <view class="body">
+        <view class="denglukapian_tupian2">
+            <view class="gerenjianjie">
+                教师寄语：
+                <text style="word-break:break-all">{{jiyu}}</text>
+
+            </view>
+        </view>
+    </view>
+</view>
