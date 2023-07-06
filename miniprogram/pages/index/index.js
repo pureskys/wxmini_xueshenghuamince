@@ -135,7 +135,7 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+       
     },
 
     /**
@@ -163,6 +163,7 @@ Page({
             jiaoshi_username: data_base1.username,
             jiaoshi_password: data_base1.password
         })
+        console.log("测试数据：",this.data.data_base1.user.name)
     },
 
     /**

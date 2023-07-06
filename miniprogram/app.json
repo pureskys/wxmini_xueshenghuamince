@@ -14,7 +14,8 @@
     "pages/xiugai_jiaoshixinxi/xiugai_jiaoshixinxi",
     "pages/Change_jiaoshimima/Change_jiaoshimima",
     "pages/xuesheng_chakanjiaoshi/xuesheng_chakanjiaoshi",
-    "pages/jiaoshi_zhuce/jiaoshi_zhuce"
+    "pages/jiaoshi_zhuce/jiaoshi_zhuce",
+    "pages/all_chakan/all_chakan"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

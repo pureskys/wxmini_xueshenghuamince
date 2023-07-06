@@ -27,30 +27,15 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad(options) {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady() {
-
-    },
-
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow() {
-        let data_base = wx.getStorageSync("data_base")
+        let data_xiangqing = JSON.parse(options.data)
         this.setData({
-            class: data_base.class
+            id: data_xiangqing.id
         })
-        console.log("班级", this.data.class)
         wx.cloud.database().collection("Root")
         .where({
-            my_class:this.data.class,
-            identity:"teacher"
-        }).get()
+            _id: this.data.id
+        })
+        .get()
         .then(res=>{
             let res1 = res.data[0]
             if (res1.yanzheng==true){
@@ -75,6 +60,20 @@ Page({
             
             
         })
+    },
+
+    /**
+     * 生命周期函数--监听页面初次渲染完成
+     */
+    onReady() {
+
+    },
+
+    /**
+     * 生命周期函数--监听页面显示
+     */
+    onShow() {
+        
     },
 
     /**

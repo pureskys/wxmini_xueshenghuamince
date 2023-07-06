@@ -1,0 +1,301 @@
+{
+    "setting": {
+        "compileHotReLoad": true
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi/jiaoshi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_base/jiaoshi_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng/xuesheng",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_base/xuesheng_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/index/index",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_base/xuesheng_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng/xuesheng",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/Change_password/Change_password",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/Change_password/Change_password",
+                    "query": "username=214072144",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xiugai_gerenxinxi/xiugai_gerenxinxi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xiugai_gerenxinxi/xiugai_gerenxinxi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/zhuce/zhuce",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_base/jiaoshi_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_gerenzhongxin/jiaoshi_gerenzhongxin",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_base/jiaoshi_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi/jiaoshi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_gerenzhongxin/jiaoshi_gerenzhongxin",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/zhuce/zhuce",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/Change_password/Change_password",
+                    "query": "username=214072144",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_base/xuesheng_base",
+                    "query": "data=%7B%22_id%22%3A%228f75309d62b6574a0a276bec4af621eb%22%2C%22user%22%3A%7B%22class%22%3A%2221%E7%BA%A7%E5%8C%96%E5%AD%A6%E4%B8%80%E7%8F%AD%22%2C%22avatar%22%3A%22https%3A%2F%2F7375-sun-3g6gwmbw83fc31a4-1309504880.tcb.qcloud.la%2F21Chemistry_class_I%2F%E6%99%A8%E9%98%B3.jpg%22%2C%22name%22%3A%22%E6%99%A8%E9%98%B3%22%2C%22age%22%3A%2219%22%2C%22gender%22%3A%22%E5%A5%B3%22%2C%22tele%22%3A%221111111%22%2C%22qq%22%3A%2222222%22%2C%22weixin%22%3A%22222222345%22%7D%2C%22hobby%22%3A%5B%22%E7%BC%96%E7%A8%8B%22%2C%22%E6%89%93%E4%B9%92%E4%B9%93%E7%90%83%22%2C%22%E6%89%93%E7%AF%AE%E7%90%83%22%2C%22%E6%89%93%E6%B8%B8%E6%88%8F%22%2C%22%E6%8B%8D%E7%85%A7%22%2C%22%E7%94%BB%E7%94%BB%22%2C%22%E5%94%B1%E6%AD%8C%22%2C%22%E8%B7%B3%E8%88%9E%22%5D%2C%22username%22%3A%221%22%2C%22password%22%3A%221%22%2C%22gerenjianjie%22%3A%22%E5%A4%A7%E5%AE%B6%E5%A5%BD%22%2C%22class%22%3A%2221Chemistry_class_I%22%7D",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_base/jiaoshi_base",
+                    "query": "data1=%7B%22_id%22%3A%22f6e08a6462c79f590b5b45946628667e%22%2C%22username%22%3A%22214072144%22%2C%22password%22%3A%22214072144%22%2C%22my_class%22%3A%2221Chemistry_class_I%22%2C%22user%22%3A%7B%22tele%22%3A%2219967793107%22%2C%22weixin%22%3A%22lkq1900236964%22%2C%22qq%22%3A%221900236964%22%2C%22name%22%3A%22%E6%A2%81%E5%BC%80%E9%92%A6%22%7D%7D",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_base/xuesheng_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_base/jiaoshi_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xiugai_gerenxinxi/xiugai_gerenxinxi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_gerenzhongxin/jiaoshi_gerenzhongxin",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_gerenzhongxin/jiaoshi_gerenzhongxin",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_gerenzhongxin/jiaoshi_gerenzhongxin",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_base/xuesheng_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_xiangqing/xuesheng_xiangqing",
+                    "query": "data=%7B%22class%22%3A%2221Chemistry_class_I%22%2C%22id%22%3A%228f75309d62b6574a0a276bec4af621eb%22%7D",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_gerenzhongxin/jiaoshi_gerenzhongxin",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_xiangxixinxi/jiaoshi_xiangxixinxi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xiugai_jiaoshixinxi/xiugai_jiaoshixinxi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/Change_jiaoshimima/Change_jiaoshimima",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/Change_jiaoshimima/Change_jiaoshimima",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_base/xuesheng_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi/jiaoshi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/jiaoshi_zhuce/jiaoshi_zhuce",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_chakanjiaoshi/xuesheng_chakanjiaoshi",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/all_chakan/all_chakan",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/all_chakan/all_chakan",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                },
+                {
+                    "name": "",
+                    "pathName": "pages/xuesheng_base/xuesheng_base",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    },
+    "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+    "libVersion": "2.25.4",
+    "projectname": "student_dangan"
+}

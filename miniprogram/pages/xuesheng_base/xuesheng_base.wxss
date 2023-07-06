@@ -21,9 +21,10 @@
 .zhuye_tupian {
     border-radius: 15%;
     overflow: hidden;
-    height: 100%;
     padding: 10rpx;
     width: 35%;
+    max-height: 171.768px;
+    min-height: 169px;
 }
 
 .denglukapian_tupian {

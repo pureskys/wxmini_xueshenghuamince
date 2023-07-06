@@ -43,15 +43,15 @@ Page({
         value2: 'b',
         option3: [{
                 text: '班主任',
-                value: 'teacher'
+                value: '班主任'
             },
             {
                 text: '班助',
-                value: 'class help'
+                value: '班助'
             },
 
         ],
-        value3: 'teacher'
+        value3: '班主任'
     },
     username(res) {
         this.setData({

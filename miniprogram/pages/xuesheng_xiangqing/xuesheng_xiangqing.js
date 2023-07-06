@@ -7,7 +7,6 @@ Page({
     data: {
         class: "",
         id: "",
-
         data_base: "",
         scr: "",
         name: "",

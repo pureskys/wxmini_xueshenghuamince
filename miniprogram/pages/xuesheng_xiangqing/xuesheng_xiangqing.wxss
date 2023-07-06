@@ -24,7 +24,7 @@
     height: 100%;
     padding: 10rpx;
     width: 35%;
-    max-height: 170.768px;
+    max-height: 171.768px;
     min-height: 169px;
 }
 

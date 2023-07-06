@@ -17,10 +17,10 @@ Page({
         class: "",
         show: false
     },
-    // 查看班主任信息
-    banzhurenxinxi(){
+    // 查看管理员信息
+    guanliyuanxinxi(){
         wx.navigateTo({
-            url: '../xuesheng_chakanjiaoshi/xuesheng_chakanjiaoshi',
+            url: '../all_chakan/all_chakan',
         })
 
     },
